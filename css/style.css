@@ -1,1 +1,35 @@
-/* My Style Sheet */
+@import url('https://fonts.googleapis.com/css?family=Bangers&effect=3d-float|font-effect-3d-float');
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background: linear-gradient(#3b337c, #110833);
+	background: -webkit-linear-gradient(#3b337c, #110833);
+	background: -o-linear-gradient(#3b337c, #110833);
+	background: -moz-linear-gradient(#3b337c, #110833);
+	font-family: 'Montserrat', sans-serif;
+	color: #110833;
+}
+
+header {
+	margin: 10px auto 10px auto;
+	padding: 0px;
+	width: 1000px;
+	height: 100px;
+	line-height: 100px;
+	background: linear-gradient(#FFFFFF, #C4C4C4);
+	background: -webkit-linear-gradient(#FFFFFF, #C4C4C4);
+	background: -o-linear-gradient(#FFFFFF, #C4C4C4);
+	background: -moz-linear-gradient(#FFFFFF, #C4C4C4);
+	border-radius: 50px 50px 10px 10px;
+	box-shadow: 5px 5px 10px #2d2b00;
+
+}
+
+.selfie {
+	content:url("https://www.dccomics.com/sites/default/files/files/character-pops/superman_459Wx300H_589104907a0b05.70849485.png");
+	width: 200px;
+	float: left;
+}
